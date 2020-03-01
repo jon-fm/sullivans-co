@@ -13,6 +13,41 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
+                    <hr class="intro-divider">
+                    <div>
+                        <ul class="list-inline">
+                            {% if post.website %}
+                            <li>
+                                <a href="{{ post.website }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-globe fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if post.linkedin %}
+                            <li>
+                                <a href="{{ post.linkedin }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if post.twitter %}
+                            <li>
+                                <a href="{{ post.twitter }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if post.facebook %}
+                            <li>
+                                <a href="{{ post.facebook }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-facebook fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if post.email %}
+                            <li>
+                                <a href="mailto:{{ post.email }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-envelope fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/family/{{ post.img }}" alt="">
@@ -36,6 +71,41 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
+                    <hr class="intro-divider">
+                    <div>
+                        <ul class="list-inline">
+                            {% if post.website %}
+                            <li>
+                                <a href="{{ post.website }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-globe fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if post.linkedin %}
+                            <li>
+                                <a href="{{ post.linkedin }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if post.twitter %}
+                            <li>
+                                <a href="{{ post.twitter }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if post.facebook %}
+                            <li>
+                                <a href="{{ post.facebook }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-facebook fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if post.email %}
+                            <li>
+                                <a href="mailto:{{ post.email }}" class="btn btn-default btn-lg" target="_blank">
+                                    <i class="fa fa-envelope fa-fw"></i></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/family/{{ post.img }}" alt="">
