@@ -6,7 +6,7 @@ url: https://sullivans.co
 title: The Sullivans
 email: info@sullivans.co
 author: Sullivan
-description: > # "Write an awesome description for your new site here. 
+description: > 
   The home site for information about The Sullivans. Both a directory and informational
   location for learning more.
 copyright: 'Copyright &copy; 2020 Sullivans. All Rights Reserved.'
@@ -19,15 +19,3 @@ credits: 'Site Created and Developed by <a href="https://jonsully.net" target="_
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  # - title: twitter
-  #   url: https://twitter.com/SBootstrap
-  # - title: github
-  #   url: https://github.com/IronSummitMedia/startbootstrap
-  # - title: linkedin
-  #   url: 
