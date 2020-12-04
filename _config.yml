@@ -19,3 +19,5 @@ credits: 'Site Created and Developed by <a href="https://jonsully.net" target="_
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Adding this comment for a diff
